@@ -1,8 +1,8 @@
-name: hello-world
+name: test
 on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - uses: actions/checkout@master
+      - uses: codecov/codecov-action@v3
